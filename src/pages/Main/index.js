@@ -74,8 +74,6 @@ export default class Main extends React.Component {
     Keyboard.dismiss();
   };
 
-  handleAddUser = async () => {};
-
   handleNavigation = user => {
     const { navigation } = this.props;
 
