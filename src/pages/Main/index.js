@@ -99,7 +99,7 @@ export default class Main extends React.Component {
             {loading ? (
               <ActivityIndicator color="#fff" />
             ) : (
-              <ProfileButtonText />
+              <Icon name="add" size={20} />
             )}
           </SubmitButton>
         </Form>
